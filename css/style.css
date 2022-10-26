@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.title-name {
+    width: fit-content;
+    height: 100%;
+    max-height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#album-title {
+    background: linear-gradient(to right, #753a88, #cc2b5e);
+}
+
+#row-overflow {
+    overflow-x: auto;
+}
+
+#gallery {
+    background-image: linear-gradient(135deg, #5EFCE8 10%, #736EFE 100%);
+}
+
+#gallery>.container {
+    padding-top: 200px !important;
+}
+
+.owl-carousel .major-carousel .owl-stage-outer {
+    padding-block: 30px;
+}
+
+.owl-carousel .major-carousel .owl-nav .owl-prev,
+.owl-carousel .major-carousel .owl-nav .owl-next {
+    transition: 0.3s all ease;
+}
+
+.owl-prev,
+.owl-next {
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: yellow !important;
+}
+
+.owl-prev {
+    float: left;
+}
+
+.owl-next {
+    float: right;
+}
+
+.owl-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-dot {
+    width: 20px !important;
+    height: 20px !important;
+    border: 1px solid black !important;
+    border-radius: 100%;
+    margin-left: 10px !important;
+}
+
+.owl-dot.active {
+    background-color: black !important;
+}
+
+#modal-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
